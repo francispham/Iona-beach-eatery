@@ -18,9 +18,12 @@ export default function Home() {
     >
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div className="flex items-center justify-center h-screen">
-          <img
+          <Image
             src="https://res.cloudinary.com/ddz8cmo2p/image/upload/v1629744671/fvvo0uoxwivyvzacli1d.png"
             alt="image"
+            style={{ width: "auto" }}
+            width={400}
+            height={1200}
           />
         </div>
       </main>
